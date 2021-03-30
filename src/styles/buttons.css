@@ -6,32 +6,30 @@ button.btn {
   user-select: none;
   cursor: pointer;
 }
-button.btn.circle {
-  border-radius: 50%;
-  height: fit-content;
-  background-color: var(--button-type);
-  font-size: var(--theme-sizing-xl);
-}
-button.btn:active,
-button.btn:focus {
-  box-shadow: 0 0 4px var(--button-type);
-}
 button.btn:disabled {
-  background-color: #1f2933;
+  background-color: #3a3d41;
   filter: grayscale(60%);
   cursor: not-allowed;
 }
 button.primary {
-  border-color: #66fcf1;
+  border-color: #007acc;
 }
 button.primary:active {
-  color: #66fcf1;
+  color: #007acc;
+}
+button.btn.primary:active,
+button.btn.primary:focus {
+  box-shadow: 0 0 4px #007acc;
 }
 button.secondary {
-  border-color: #45a29e;
+  border-color: #9CDCFE;
 }
 button.secondary:active {
-  color: #45a29e;
+  color: #9CDCFE;
+}
+button.btn.secondary:active,
+button.btn.secondary:focus {
+  box-shadow: 0 0 4px #9CDCFE;
 }
 
 /* RESET */

@@ -3,8 +3,8 @@ html {
 }
 body {
   padding: 1em;
-  background-color: #0b0c10;
-  color: #c5c6c7;
+  background-color: #1e1e1e;
+  color: #d4d4d4;
   font-family: sans-serif;
 
   transition: --theme-background 500ms ease, --theme-foreground 500ms ease,
