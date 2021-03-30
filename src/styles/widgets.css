@@ -1,11 +1,3 @@
-@supports (background: paint(houdini)) {
-  @property --progress {
-    syntax: "<percentage>";
-    inherits: false;
-    initial-value: 0%;
-  }
-}
-
 figure.progress {
   --progress: 0%;
   transition: --progress 0.5s linear;
