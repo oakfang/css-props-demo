@@ -1,8 +1,8 @@
 html {
-  font-size: var(--theme-sizing-md);
+  font-size: 12px;
 }
 body {
-  background-color: var(--theme-background);
-  color: var(--theme-text);
+  background-color: #0b0c10;
+  color: #c5c6c7;
   font-family: sans-serif;
 }
