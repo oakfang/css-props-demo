@@ -1,0 +1,8 @@
+html {
+  font-size: var(--theme-sizing-md);
+}
+body {
+  background-color: var(--theme-background);
+  color: var(--theme-text);
+  font-family: sans-serif;
+}

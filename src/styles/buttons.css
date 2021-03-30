@@ -1,0 +1,46 @@
+button.btn {
+  font-size: var(--theme-sizing-lg);
+  padding: 1em;
+  border: 3px solid var(--button-type);
+  border-radius: 0.5em;
+}
+button.btn:active {
+  color: var(--button-type);
+}
+button.btn:active,
+button.btn:focus {
+  filter: brightness(150%);
+}
+button.btn:disabled {
+  background-color: var(--theme-inactive);
+  filter: grayscale(60%);
+}
+
+button.btn.terse {
+  font-size: var(--theme-sizing-md);
+  padding: 0.5em;
+  height: fit-content;
+}
+button.btn.primary {
+  --button-type: var(--theme-primary);
+}
+button.btn.secondary {
+  --button-type: var(--theme-secondary);
+}
+
+/* RESET */
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  outline: none;
+}

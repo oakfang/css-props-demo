@@ -1,0 +1,16 @@
+section.buttons {
+  gap: 10px;
+  display: flex;
+  padding: 3rem;
+  justify-content: center;
+}
+
+section.range {
+  width: 80%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1em;
+}
