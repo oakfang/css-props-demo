@@ -5,4 +5,8 @@ body {
   background-color: var(--theme-background);
   color: var(--theme-text);
   font-family: sans-serif;
+
+  transition: --theme-background 500ms ease, --theme-text 500ms ease,
+    --theme-inactive 500ms ease, --theme-primary 500ms ease,
+    --theme-secondary 500ms ease;
 }
