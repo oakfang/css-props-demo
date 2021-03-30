@@ -9,6 +9,7 @@
 figure.progress {
   --progress: 0%;
   transition: --progress 0.5s linear;
+  margin: 0;
   width: 100%;
   height: 30px;
   border-radius: 30px;

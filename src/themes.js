@@ -1,24 +1,29 @@
 import clone from "lodash.clonedeep";
 
 export const darkTheme = {
+  name: "dark",
   sizing: {
     md: "12px",
-    lg: "16px"
+    lg: "16px",
+    xl: "22px",
   },
   palette: {
-    background: "#0b0c10",
-    inactive: "#1f2933",
-    primary: "#66fcf1",
-    text: "#c5c6c7",
-    secondary: "#45a29e"
-  }
+    background: "#1e1e1e",
+    foreground: "#d4d4d4",
+    inactive: "#3a3d41",
+    primary: "#007acc",
+    secondary: "#9CDCFE",
+  },
 };
 
 export const lightTheme = clone(darkTheme);
+Object.assign(lightTheme, {
+  name: "light",
+});
 Object.assign(lightTheme.palette, {
-  background: "#f5f5f5",
-  inactive: "#dedede",
-  text: "#1f1f1f",
-  primary: "#32d25b",
-  secondary: "#429e5a"
+  background: "#fafafa",
+  foreground: "#383a42",
+  inactive: "#dbdbdc",
+  primary: "#3bba54",
+  secondary: "#00809b",
 });

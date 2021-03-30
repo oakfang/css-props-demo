@@ -3,23 +3,26 @@ button.btn {
   padding: 1em;
   border: 3px solid var(--button-type);
   border-radius: 0.5em;
+  user-select: none;
+  cursor: pointer;
+}
+button.btn.circle {
+  border-radius: 50%;
+  height: fit-content;
+  background-color: var(--button-type);
+  font-size: var(--theme-sizing-xl);
 }
 button.btn:active {
   color: var(--button-type);
 }
 button.btn:active,
 button.btn:focus {
-  filter: brightness(150%);
+  box-shadow: 0 0 4px var(--button-type);
 }
 button.btn:disabled {
   background-color: var(--theme-inactive);
   filter: grayscale(60%);
-}
-
-button.btn.terse {
-  font-size: var(--theme-sizing-md);
-  padding: 0.5em;
-  height: fit-content;
+  cursor: not-allowed;
 }
 button.btn.primary {
   --button-type: var(--theme-primary);

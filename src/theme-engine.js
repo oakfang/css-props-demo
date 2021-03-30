@@ -12,7 +12,9 @@ export class ThemeEngine {
   }
 
   setupEvents() {
-    this.themeSwitch.addEventListener("click", () => switchTheme());
+    this.themeSwitch.addEventListener("click", () => {
+      switchTheme();
+    });
   }
 
   registerTheme() {
