@@ -2,7 +2,12 @@ html {
   font-size: 12px;
 }
 body {
+  padding: 1em;
   background-color: #0b0c10;
   color: #c5c6c7;
   font-family: sans-serif;
+
+  transition: --theme-background 500ms ease, --theme-foreground 500ms ease,
+    --theme-inactive 500ms ease, --theme-primary 500ms ease,
+    --theme-secondary 500ms ease;
 }
